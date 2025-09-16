@@ -3,9 +3,9 @@
   var e =
       '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.796 9.99924L7.0835 6.28674L8.144 5.22624L12.917 9.99924L8.144 14.7722L7.0835 13.7117L10.796 9.99924Z" fill="#99A0AE"/></svg>',
     n =
-      '\n          <div class="retell-callback-header">\n            <div class="retell-callback-title">\n              <span class="retell-callback-title-icon">📞</span>\n              <span class="retell-callback-title-text">Get a call from us</span>\n            </div>\n            <div class="retell-callback-subtitle">Leave your details below and we will call you!</div>\n            <div class="retell-callback-note">(The call is free)</div>\n          </div>\n          <div class="retell-callback-form-content">\n            <div class="retell-callback-name-group">\n              <div class="retell-callback-input-group">\n                <input class="retell-input" id="retell-firstname-input" type="text" placeholder="First Name" required />\n              </div>\n              <div class="retell-callback-input-group">\n                <input class="retell-input" id="retell-lastname-input" type="text" placeholder="Last Name" required />\n              </div>\n            </div>\n            <div class="retell-callback-input-group">\n              <div class="retell-callback-phone-group">\n                <div class="retell-callback-country-dropdown" id="retell-country-dropdown" tabindex="0" role="button" aria-haspopup="listbox" aria-expanded="false">\n                  <span class="retell-callback-country-flag" id="retell-country-flag">🇺🇸</span>\n                  <span class="retell-callback-country-code" id="retell-country-code">+1</span>\n                  <span class="retell-callback-dropdown-arrow">'.concat(
+      '\n          <div class="nser-callback-header">\n            <div class="nser-callback-title">\n              <span class="nser-callback-title-icon">📞</span>\n              <span class="nser-callback-title-text">Get a call from us</span>\n            </div>\n            <div class="nser-callback-subtitle">Leave your details below and we will call you!</div>\n            <div class="nser-callback-note">(The call is free)</div>\n          </div>\n          <div class="nser-callback-form-content">\n            <div class="nser-callback-name-group">\n              <div class="nser-callback-input-group">\n                <input class="nser-input" id="nser-firstname-input" type="text" placeholder="First Name" required />\n              </div>\n              <div class="nser-callback-input-group">\n                <input class="nser-input" id="nser-lastname-input" type="text" placeholder="Last Name" required />\n              </div>\n            </div>\n            <div class="nser-callback-input-group">\n              <div class="nser-callback-phone-group">\n                <div class="nser-callback-country-dropdown" id="nser-country-dropdown" tabindex="0" role="button" aria-haspopup="listbox" aria-expanded="false">\n                  <span class="nser-callback-country-flag" id="nser-country-flag">🇺🇸</span>\n                  <span class="nser-callback-country-code" id="nser-country-code">+1</span>\n                  <span class="nser-callback-dropdown-arrow">'.concat(
         '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0001 10.879L13.7126 7.1665L14.7731 8.227L10.0001 13L5.22705 8.227L6.28755 7.1665L10.0001 10.879Z" fill="#525866"/></svg>',
-        '</span>\n                </div>\n                <input class="retell-input" id="retell-phone-input" type="tel" placeholder="(555) 000-0000" required />\n                <div class="retell-country-dropdown-list" id="retell-country-dropdown-list" style="display: none;">\n                  <div class="retell-country-search">\n                    <input type="text" id="retell-country-search" placeholder="Search country name" />\n                  </div>\n                  <div class="retell-country-options" id="retell-country-options">\n                    \x3c!-- Countries will be populated here --\x3e\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class="retell-callback-checkbox-group">\n              <input class="retell-callback-checkbox" id="retell-privacy-checkbox" type="checkbox" required />\n              <label class="retell-callback-checkbox-label" for="retell-privacy-checkbox">\n                I agree to the <a href="#" id="retell-privacy-policy-link" class="retell-privacy-policy-link">privacy policy</a>\n              </label>\n            </div>\n          </div>\n          <div class="retell-callback-actions">\n            <button class="retell-send-btn" id="retell-callback-submit" type="button">Submit Request</button>\n            <div class="retell-maybe-later" id="retell-maybe-later">Maybe later</div>\n          </div>'
+        '</span>\n                </div>\n                <input class="nser-input" id="nser-phone-input" type="tel" placeholder="(555) 000-0000" required />\n                <div class="nser-country-dropdown-list" id="nser-country-dropdown-list" style="display: none;">\n                  <div class="nser-country-search">\n                    <input type="text" id="nser-country-search" placeholder="Search country name" />\n                  </div>\n                  <div class="nser-country-options" id="nser-country-options">\n                    \x3c!-- Countries will be populated here --\x3e\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class="nser-callback-checkbox-group">\n              <input class="nser-callback-checkbox" id="nser-privacy-checkbox" type="checkbox" required />\n              <label class="nser-callback-checkbox-label" for="nser-privacy-checkbox">\n                I agree to the <a href="#" id="nser-privacy-policy-link" class="nser-privacy-policy-link">privacy policy</a>\n              </label>\n            </div>\n          </div>\n          <div class="nser-callback-actions">\n            <button class="nser-send-btn" id="nser-callback-submit" type="button">Submit Request</button>\n            <div class="nser-maybe-later" id="nser-maybe-later">Maybe later</div>\n          </div>'
       ),
     t = [
       { name: 'Afghanistan', code: 'AF', emoji: '🇦🇫', dial_code: '+93' },
@@ -386,22 +386,22 @@
     return o;
   }
   function i(e, a, i, l, r) {
-    var c = e.getElementById('retell-callback-form');
+    var c = e.getElementById('nser-callback-form');
     if (c) c.innerHTML = n;
     else {
-      var d = e.getElementById('retell-chat');
-      d && ((d.innerHTML = n), (c = e.getElementById('retell-callback-form')));
+      var d = e.getElementById('nser-chat');
+      d && ((d.innerHTML = n), (c = e.getElementById('nser-callback-form')));
     }
     if (!c)
       return (
         console.error('Could not find or create callback form element'), null
       );
-    var s = e.getElementById('retell-firstname-input'),
-      m = e.getElementById('retell-lastname-input'),
-      p = e.getElementById('retell-phone-input'),
-      u = e.getElementById('retell-privacy-checkbox'),
-      f = e.getElementById('retell-callback-submit'),
-      g = e.getElementById('retell-maybe-later');
+    var s = e.getElementById('nser-firstname-input'),
+      m = e.getElementById('nser-lastname-input'),
+      p = e.getElementById('nser-phone-input'),
+      u = e.getElementById('nser-privacy-checkbox'),
+      f = e.getElementById('nser-callback-submit'),
+      g = e.getElementById('nser-maybe-later');
     f && ((f.disabled = !0), (f.onclick = a)),
       g && (g.onclick = i),
       u &&
@@ -409,7 +409,7 @@
         (u.onchange = function () {
           f.disabled = !u.checked;
         });
-    var b = e.getElementById('retell-privacy-policy-link');
+    var b = e.getElementById('nser-privacy-policy-link');
     return (
       b &&
         l &&
@@ -417,12 +417,12 @@
           e.preventDefault(), window.open(l, '_blank');
         }),
       (function (e, n) {
-        var a = e.getElementById('retell-country-dropdown'),
-          i = e.getElementById('retell-country-flag'),
-          l = e.getElementById('retell-country-code'),
-          r = e.getElementById('retell-country-dropdown-list'),
-          c = e.getElementById('retell-country-search'),
-          d = e.getElementById('retell-country-options');
+        var a = e.getElementById('nser-country-dropdown'),
+          i = e.getElementById('nser-country-flag'),
+          l = e.getElementById('nser-country-code'),
+          r = e.getElementById('nser-country-dropdown-list'),
+          c = e.getElementById('nser-country-search'),
+          d = e.getElementById('nser-country-options');
         if (!(a && i && l && r && c && d)) return;
         var s = o(t);
         if (n) {
@@ -442,18 +442,18 @@
           (d.innerHTML = ''),
             e.forEach(function (e) {
               var n = document.createElement('div');
-              (n.className = 'retell-country-option'),
+              (n.className = 'nser-country-option'),
                 n.setAttribute('tabindex', '0'),
                 n.setAttribute('role', 'option'),
                 (n.innerHTML =
-                  '\n        <div class="retell-country-option-left">\n          <span class="retell-country-flag">'
+                  '\n        <div class="nser-country-option-left">\n          <span class="nser-country-flag">'
                     .concat(
                       e.emoji || '🏳️',
-                      '</span>\n          <span class="retell-country-name">'
+                      '</span>\n          <span class="nser-country-name">'
                     )
                     .concat(
                       e.name,
-                      '</span>\n        </div>\n        <strong class="retell-country-phone">'
+                      '</span>\n        </div>\n        <strong class="nser-country-phone">'
                     )
                     .concat(e.dial_code || '', '</strong>\n      ')),
                 (n.onclick = function () {
@@ -495,7 +495,7 @@
             ('Enter' !== e.key && ' ' !== e.key && 'ArrowDown' !== e.key) ||
               (e.preventDefault(), a.click());
           });
-        var g = a.querySelector('.retell-callback-dropdown-arrow');
+        var g = a.querySelector('.nser-callback-dropdown-arrow');
         g &&
           (g.onclick = function (e) {
             e.stopPropagation(), a.click();
@@ -1314,7 +1314,7 @@
   }
   !(function () {
     function t() {
-      var t = document.getElementById('retell-widget');
+      var t = document.getElementById('nser-widget');
       if (t) {
         var o = t.getAttribute('data-public-key');
         if (o) {
@@ -1343,7 +1343,7 @@
                 B = JSON.parse(I);
               } catch (e) {
                 console.error(
-                  'Retell Widget: Failed to parse data-dynamic JSON',
+                  'NSER.AI Widget: Failed to parse data-dynamic JSON',
                   e
                 );
               }
@@ -1395,10 +1395,10 @@
                   L = w,
                   A = w;
                 (M.textContent =
-                  '\n    .retell-fab {\n      width: 56px;\n      height: 56px;\n      border-radius: 50%;\n      background: '
+                  '\n    .nser-fab {\n      width: 56px;\n      height: 56px;\n      border-radius: 50%;\n      background: '
                     .concat(
                       B,
-                      ';\n      color: #fff;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 32px;\n      box-shadow: 0 2px 8px rgba(0,0,0,0.2);\n      cursor: pointer;\n      transition: background 0.2s, transform 0.2s ease;\n      border: none;\n      padding: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    .retell-fab:hover {\n      transform: scale(1.1);\n    }\n    .retell-fab:hover::after {\n      content: "";\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255,255,255,0.1);\n      border-radius: 50%;\n      pointer-events: none;\n    }\n    .retell-fab svg { display: block; }\n    .retell-chat-window {\n      width: 360px;\n      height: '
+                      ';\n      color: #fff;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 32px;\n      box-shadow: 0 2px 8px rgba(0,0,0,0.2);\n      cursor: pointer;\n      transition: background 0.2s, transform 0.2s ease;\n      border: none;\n      padding: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    .nser-fab:hover {\n      transform: scale(1.1);\n    }\n    .nser-fab:hover::after {\n      content: "";\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255,255,255,0.1);\n      border-radius: 50%;\n      pointer-events: none;\n    }\n    .nser-fab svg { display: block; }\n    .nser-chat-window {\n      width: 360px;\n      height: '
                     )
                     .concat(
                       'callback' === m ? 'auto' : '548px',
@@ -1406,15 +1406,15 @@
                     )
                     .concat(
                       'callback' === m ? '400px' : '548px',
-                      ";\n      background: #fff;\n      border-radius: 16px;\n      border: 1px solid #cad0d8;\n      box-shadow: 0 4px 24px rgba(0,0,0,0.10);\n      position: absolute;\n      bottom: 70px;\n      right: 0;\n      display: flex;\n      flex-direction: column;\n      overflow: hidden; /* prevent inner content from clipping rounded corners */\n      background-clip: padding-box; /* crisper corners/border */\n      font-family: 'Inter', Arial, sans-serif;\n      animation: fadeIn 0.2s;\n    }\n    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: none; } }\n    .retell-header { display: flex; align-items: center; background: "
+                      ";\n      background: #fff;\n      border-radius: 16px;\n      border: 1px solid #cad0d8;\n      box-shadow: 0 4px 24px rgba(0,0,0,0.10);\n      position: absolute;\n      bottom: 70px;\n      right: 0;\n      display: flex;\n      flex-direction: column;\n      overflow: hidden; /* prevent inner content from clipping rounded corners */\n      background-clip: padding-box; /* crisper corners/border */\n      font-family: 'Inter', Arial, sans-serif;\n      animation: fadeIn 0.2s;\n    }\n    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: none; } }\n    .nser-header { display: flex; align-items: center; background: "
                     )
                     .concat(
                       L,
-                      '; color: #fff; padding: 0 0 0 8px; font-weight: bold; position: relative; height: 48px; border-top-left-radius: 16px; border-top-right-radius: 16px; }\n    .retell-hamburger { background: none; border: none; color: #fff; font-size: 24px; margin-right: 12px; cursor: pointer; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }\n    .retell-header-title { flex: 1; text-align: left; font-size: 17px; font-weight: 400; }\n    .retell-minimize { background: none; border: none; color: #fff; font-size: 22px; cursor: pointer; width: 40px; height: 40px; margin-right: 2px; display: flex; align-items: center; justify-content: center; }\n    .retell-close { position: static; background: none; border: none; color: #fff; font-size: 22px; cursor: pointer; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }\n    .retell-sidebar {\n      position: absolute;\n      left: 0;\n      top: 48px; /* below header */\n      bottom: 0;\n      width: 260px;\n      background: #fff;\n      box-shadow: 2px 0 8px rgba(0,0,0,0.08);\n      z-index: 10;\n      display: none;\n      flex-direction: column;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 8px;\n      animation: sidebarIn 0.2s;\n    }\n    @keyframes sidebarIn { from { transform: translateX(-100%); opacity: 0; } to { transform: none; opacity: 1; } }\n    .retell-chat-list {\n      flex: 1;\n      overflow-y: auto;\n      padding: 0;\n      background: #fff;\n    }\n    .retell-chat-list-item {\n      display: flex;\n      flex-direction: row;\n      align-items: center;\n      padding: 16px 18px 12px 18px;\n      border-bottom: 1px solid #ececec;\n      cursor: pointer;\n      background: #fff;\n      transition: background 0.2s;\n    }\n    .retell-chat-list-item.selected, .retell-chat-list-item:hover {\n      background: #f7f8fa;\n    }\n    .retell-chat-list-item-content {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n    }\n    .retell-chat-list-item-title {\n      font-weight: 500;\n      font-size: 15px;\n      color: #222;\n      margin-bottom: 2px;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis;\n    }\n    .retell-chat-list-item-date {\n      font-size: 13px;\n      color: #B0B0B0;\n      margin-top: 1px;\n    }\n    .retell-chat-list-item-arrow {\n      color: #B0B0B0;\n      font-size: 18px;\n      margin-left: 12px;\n    }\n    .retell-messages { flex: 1; padding: 18px 14px 12px 14px; overflow-y: auto; background:rgb(255, 255, 255); display: flex; flex-direction: column; }\n    .retell-input-row {\n      display: flex;\n      align-items: center;\n      border-top: 1px solid #eee;\n      background: #fff;\n      padding: 16px 16px 8px 16px;\n      box-sizing: border-box;\n      width: 100%;\n      gap: 8px;\n    }\n    .retell-input {\n      flex: 1;\n      border: 1px solid #CACFD8;\n      border-radius: 8px;\n      padding: 12px 14px;\n      font-size: 16px;\n      background: #fff;\n      margin: 0;\n      outline: none;\n      box-sizing: border-box;\n      transition: border 0.2s;\n    }\n      \n    .retell-send-btn {\n      background: '
+                      '; color: #fff; padding: 0 0 0 8px; font-weight: bold; position: relative; height: 48px; border-top-left-radius: 16px; border-top-right-radius: 16px; }\n    .nser-hamburger { background: none; border: none; color: #fff; font-size: 24px; margin-right: 12px; cursor: pointer; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }\n    .nser-header-title { flex: 1; text-align: left; font-size: 17px; font-weight: 400; }\n    .nser-minimize { background: none; border: none; color: #fff; font-size: 22px; cursor: pointer; width: 40px; height: 40px; margin-right: 2px; display: flex; align-items: center; justify-content: center; }\n    .nser-close { position: static; background: none; border: none; color: #fff; font-size: 22px; cursor: pointer; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }\n    .nser-sidebar {\n      position: absolute;\n      left: 0;\n      top: 48px; /* below header */\n      bottom: 0;\n      width: 260px;\n      background: #fff;\n      box-shadow: 2px 0 8px rgba(0,0,0,0.08);\n      z-index: 10;\n      display: none;\n      flex-direction: column;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 8px;\n      animation: sidebarIn 0.2s;\n    }\n    @keyframes sidebarIn { from { transform: translateX(-100%); opacity: 0; } to { transform: none; opacity: 1; } }\n    .nser-chat-list {\n      flex: 1;\n      overflow-y: auto;\n      padding: 0;\n      background: #fff;\n    }\n    .nser-chat-list-item {\n      display: flex;\n      flex-direction: row;\n      align-items: center;\n      padding: 16px 18px 12px 18px;\n      border-bottom: 1px solid #ececec;\n      cursor: pointer;\n      background: #fff;\n      transition: background 0.2s;\n    }\n    .nser-chat-list-item.selected, .nser-chat-list-item:hover {\n      background: #f7f8fa;\n    }\n    .nser-chat-list-item-content {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n    }\n    .nser-chat-list-item-title {\n      font-weight: 500;\n      font-size: 15px;\n      color: #222;\n      margin-bottom: 2px;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis;\n    }\n    .nser-chat-list-item-date {\n      font-size: 13px;\n      color: #B0B0B0;\n      margin-top: 1px;\n    }\n    .nser-chat-list-item-arrow {\n      color: #B0B0B0;\n      font-size: 18px;\n      margin-left: 12px;\n    }\n    .nser-messages { flex: 1; padding: 18px 14px 12px 14px; overflow-y: auto; background:rgb(255, 255, 255); display: flex; flex-direction: column; }\n    .nser-input-row {\n      display: flex;\n      align-items: center;\n      border-top: 1px solid #eee;\n      background: #fff;\n      padding: 16px 16px 8px 16px;\n      box-sizing: border-box;\n      width: 100%;\n      gap: 8px;\n    }\n    .nser-input {\n      flex: 1;\n      border: 1px solid #CACFD8;\n      border-radius: 8px;\n      padding: 12px 14px;\n      font-size: 16px;\n      background: #fff;\n      margin: 0;\n      outline: none;\n      box-sizing: border-box;\n      transition: border 0.2s;\n    }\n      \n    .nser-send-btn {\n      background: '
                     )
                     .concat(
                       A,
-                      ';\n      color: #fff;\n      border: none;\n      border-radius: 8px;\n      padding: 12px 18px;\n      cursor: pointer;\n      font-size: 18px;\n      margin-left: 0;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      transition: background 0.2s;\n      height: auto;\n      min-width: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    .retell-send-btn:hover::after,\n    .retell-send-btn:active::after,\n    .retell-send-btn:focus::after {\n      content: "";\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255,255,255,0.1);\n      border-radius: 8px;\n      pointer-events: none;\n    }\n    .retell-msg { padding: 9px 12px; border-radius: 16px; margin-bottom: 4px; }\n    .retell-msg.user { background: #D5E2FF; color: #0E121B; align-self: flex-end; border-radius: 16px 16px 4px 16px; margin-left: 40px; margin-right: 0; }\n    .retell-msg.agent-row { display: flex; align-items: flex-start; padding-left: 0px;}\n    .retell-msg.agent-row.consecutive { margin-top: -12px; padding-top: 0px;}\n    .retell-msg.agent { background: #F2F5F8; color: #0E121B; align-self: flex-start; border-radius: 16px 16px 16px 4px; display: block; margin-left: 0; margin-right: 40px; min-width: 0; }\n    .retell-agent-logo { width: 28px; height: 28px; margin-right: 8px; margin-top: 2px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }\n    .retell-footer {\n      font-size: 13px;\n      color: #b0b0b0;\n      text-align: left;\n      padding: 6px 18px 8px 18px;\n      background: #fff;\n      border-top: 1px solid #f0f0f0;\n      letter-spacing: 0.01em;\n      position: static;\n    }\n    .retell-footer strong { color: #0d1123; }\n    .retell-modal { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.18); display: flex; align-items: center; justify-content: center; z-index: 100; }\n    .retell-modal-content { background: #fff; border-radius: 12px; padding: 32px 28px 24px 28px; box-shadow: 0 4px 24px rgba(0,0,0,0.18); text-align: center; min-width: 260px; }\n    .retell-modal-content p { font-size: 19px; margin-bottom: 24px; color: #0d1123; }\n    .retell-modal-btn-row { display: flex; flex-direction: column; gap: 12px; }\n    .retell-modal-btn { font-size: 16px; padding: 10px 0; border-radius: 8px; border: 1px solid #d1d5db; background: #fff; color: #0d1123; cursor: pointer; transition: background 0.2s, border 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px; }\n    .retell-modal-btn.selected, .retell-modal-btn:hover { background: #e0e7ef; border: 1.5px solid #0d1123; }\n    .retell-modal-btn svg { font-size: 18px; }\n    @media (max-width: 600px) {\n      .retell-chat-window {\n      width: 90vw !important;\n      height: '
+                      ';\n      color: #fff;\n      border: none;\n      border-radius: 8px;\n      padding: 12px 18px;\n      cursor: pointer;\n      font-size: 18px;\n      margin-left: 0;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      transition: background 0.2s;\n      height: auto;\n      min-width: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    .nser-send-btn:hover::after,\n    .nser-send-btn:active::after,\n    .nser-send-btn:focus::after {\n      content: "";\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: rgba(255,255,255,0.1);\n      border-radius: 8px;\n      pointer-events: none;\n    }\n    .nser-msg { padding: 9px 12px; border-radius: 16px; margin-bottom: 4px; }\n    .nser-msg.user { background: #D5E2FF; color: #0E121B; align-self: flex-end; border-radius: 16px 16px 4px 16px; margin-left: 40px; margin-right: 0; }\n    .nser-msg.agent-row { display: flex; align-items: flex-start; padding-left: 0px;}\n    .nser-msg.agent-row.consecutive { margin-top: -12px; padding-top: 0px;}\n    .nser-msg.agent { background: #F2F5F8; color: #0E121B; align-self: flex-start; border-radius: 16px 16px 16px 4px; display: block; margin-left: 0; margin-right: 40px; min-width: 0; }\n    .nser-agent-logo { width: 28px; height: 28px; margin-right: 8px; margin-top: 2px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }\n    .nser-footer {\n      font-size: 13px;\n      color: #b0b0b0;\n      text-align: left;\n      padding: 6px 18px 8px 18px;\n      background: #fff;\n      border-top: 1px solid #f0f0f0;\n      letter-spacing: 0.01em;\n      position: static;\n    }\n    .nser-footer strong { color: #0d1123; }\n    .nser-modal { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.18); display: flex; align-items: center; justify-content: center; z-index: 100; }\n    .nser-modal-content { background: #fff; border-radius: 12px; padding: 32px 28px 24px 28px; box-shadow: 0 4px 24px rgba(0,0,0,0.18); text-align: center; min-width: 260px; }\n    .nser-modal-content p { font-size: 19px; margin-bottom: 24px; color: #0d1123; }\n    .nser-modal-btn-row { display: flex; flex-direction: column; gap: 12px; }\n    .nser-modal-btn { font-size: 16px; padding: 10px 0; border-radius: 8px; border: 1px solid #d1d5db; background: #fff; color: #0d1123; cursor: pointer; transition: background 0.2s, border 0.2s; display: flex; align-items: center; justify-content: center; gap: 8px; }\n    .nser-modal-btn.selected, .nser-modal-btn:hover { background: #e0e7ef; border: 1.5px solid #0d1123; }\n    .nser-modal-btn svg { font-size: 18px; }\n    @media (max-width: 600px) {\n      .nser-chat-window {\n      width: 90vw !important;\n      height: '
                     )
                     .concat(
                       'callback' === m ? 'auto' : '70vh',
@@ -1422,44 +1422,44 @@
                     )
                     .concat(
                       'callback' === m ? '400px' : '90vh',
-                      ";\n      left: 0 !important;\n      right: 0 !important;\n      bottom: 90px !important;\n      top: auto !important;\n      margin: 0 auto !important;\n      border-radius: 16px !important;\n      position: fixed !important;\n      box-shadow: 0 2px 16px rgba(0,0,0,0.18);\n      z-index: 999999;\n    }\n    .retell-fab {\n      right: 16px !important;\n      bottom: 16px !important;\n      left: auto !important;\n    }\n    }\n    .retell-powered-by {\n      margin-top: auto;\n  font-size: 9px;\n  color: #b0b0b0;\n  text-align: left;\n  margin-left: 16px;\n  margin-bottom: 8px;\n  letter-spacing: 0.01em;\n  font-family: 'Inter', Arial, sans-serif;\n    }\n    .retell-powered-by strong { color: #0d1123; }\n    .retell-ai-message-modal {\n      position: fixed;\n      bottom: 100px;\n      right: 24px;\n      z-index: 999999;\n      pointer-events: none;\n    }\n    .retell-ai-message-container {\n      display: flex;\n      flex-direction: column;\n      align-items: flex-end;\n      gap: 8px;\n      pointer-events: auto;\n    }\n    .retell-ai-message-bubble {\n      background: #ffffff;\n      border: 1px solid rgba(14, 18, 27, 0.01);\n      border-radius: 8px;\n      box-shadow: 0px 16px 32px -12px rgba(14, 18, 27, 0.1);\n      padding: 12px 16px;\n      max-width: 320px;\n      width: 320px;\n      cursor: pointer;\n      transition: transform 0.2s ease, box-shadow 0.2s ease;\n    }\n    .retell-ai-message-bubble:hover {\n      transform: translateY(-2px);\n      box-shadow: 0px 20px 40px -12px rgba(14, 18, 27, 0.15);\n    }\n    .retell-ai-message-content {\n      font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;\n      font-size: 14px;\n      line-height: 22px;\n      color: #0e121b;\n      margin-bottom: 8px;\n      word-break: break-word;\n      cursor: pointer;\n    }\n    .retell-ai-message-footer {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;\n      font-size: 12px;\n      line-height: 20px;\n    }\n    .retell-ai-message-bot-name {\n      color: #8f959e;\n    }\n    .retell-ai-message-close {\n      background: none;\n      border: none;\n      color: #525866;\n      font-size: 12px;\n      cursor: pointer;\n      padding: 0;\n      margin: 0;\n      font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n    .retell-ai-message-close:hover {\n      color: #0e121b;\n    }\n    \n    /* Callback Widget Styles */\n\n    #retell-firstname-input {\n      border-radius: 8px 0 0 8px;\n      border-right: none;\n    }\n    #retell-lastname-input {\n    border-radius: 0 8px 8px 0;\n    }\n    .retell-callback-form {\n      padding: 16px;\n      background: #ffffff;\n      display: flex;\n      flex-direction: column;\n      gap: 20px;\n      border-radius: 12px;\n      box-shadow: 0px 16px 32px -12px rgba(14,18,27,0.1);\n      border: 1px solid rgba(14,18,27,0.01);\n      margin: 0;\n      box-sizing: border-box;\n    }\n    .retell-callback-header {\n      display: flex;\n      flex-direction: column;\n      gap: 2px;\n    }\n    .retell-callback-title {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      height: 24px;\n    }\n    .retell-callback-title-icon {\n      font-size: 15px;\n      color: #0e121b;\n      line-height: 24px;\n    }\n    .retell-callback-title-text {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      color: #0e121b;\n      line-height: 24px;\n      letter-spacing: -0.176px;\n    }\n    .retell-callback-subtitle {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #1f2329;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .retell-callback-note {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 12px;\n      color: #525866;\n      line-height: 16px;\n    }\n    .retell-callback-form-content {\n      display: flex;\n      flex-direction: column;\n      gap: 10px;\n      width: 308px;\n    }\n    .retell-callback-name-group {\n      display: flex;\n      gap: 0;\n      width: 100%;\n    }\n    .retell-callback-name-group .retell-callback-input-group {\n      flex: 1;\n      margin-bottom: 0;\n    }\n    .retell-callback-name-group .retell-callback-input-group:first-child {\n      border-right: 1px solid #e1e4ea;\n    }\n    /* Ensure only a single divider line between first and last name */\n    .retell-callback-name-group .retell-callback-input-group:first-child .retell-input {\n      border-right: none;\n      border-radius: 8px 0 0 8px;\n    }\n    .retell-callback-name-group .retell-callback-input-group:last-child .retell-input {\n      border-left: none;\n      border-radius: 0 8px 8px 0;\n    }\n    .retell-callback-input-group {\n      margin-bottom: 0;\n    }\n    .retell-callback-input-group .retell-input {\n      width: 100%;\n      box-sizing: border-box;\n      margin: 0;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      padding: 10px 12px;\n      font-size: 14px;\n      background: #ffffff;\n      outline: none;\n      transition: all 0.2s;\n      color: #99a0ae;\n      font-family: 'Inter', Arial, sans-serif;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .retell-callback-input-group .retell-input:focus,\n    .retell-callback-input-group .retell-input:not(:placeholder-shown) {\n      border-color: #e1e4ea;\n      color: #0e121b;\n    }\n    .retell-callback-input-group .retell-input::placeholder {\n      color: #99a0ae;\n    }\n    .retell-callback-phone-group {\n      display: flex;\n      align-items: center;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      overflow: visible;\n      box-shadow: 0px 1px 2px 0px rgba(10,13,20,0.03);\n      position: relative;\n    }\n    .retell-callback-country-dropdown {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      padding: 10px 12px;\n      background: #ffffff;\n      border-right: 1px solid #e1e4ea;\n      border-radius: 8px 0 0 8px;\n      cursor: pointer;\n      min-width: 80px;\n      outline: none;\n      box-sizing: border-box;\n      height: 100%;\n    }\n    \n    .retell-callback-country-dropdown:focus {\n      outline: 2px solid #e1e4ea;\n      outline-offset: -2px;\n    }\n    .retell-callback-country-flag {\n      font-size: 20px;\n    }\n    .retell-callback-country-code {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #0e121b;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .retell-callback-dropdown-arrow {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      transition: transform 0.2s;\n    }\n    .retell-callback-dropdown-arrow svg {\n      width: 16px;\n      height: 16px;\n      fill: #99a0ae;\n    }\n    .retell-callback-country-dropdown.open .retell-callback-dropdown-arrow {\n      transform: rotate(180deg);\n    }\n    .retell-callback-phone-group .retell-input {\n      border: none;\n      border-radius: 0 8px 8px 0;\n      flex: 1;\n      border-left: none; /* single divider handled by dropdown's border-right */\n      height: 100%;\n      color: #99a0ae;\n      transition: color 0.2s;\n    }\n    .retell-callback-phone-group .retell-input:focus,\n    .retell-callback-phone-group .retell-input:not(:placeholder-shown) {\n      color: #0e121b;\n    }\n    .retell-callback-phone-group {\n      position: relative;\n      height: 42px;\n    }\n    .retell-country-dropdown-list {\n      position: fixed;\n      bottom: auto;\n      left: auto;\n      right: auto;\n      background: #ffffff;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      box-shadow: 0px 4px 12px rgba(14,18,27,0.1);\n      z-index: 999999;\n      max-height: 300px;\n      overflow: hidden;\n      margin-bottom: 4px;\n      width: 308px;\n    }\n    .retell-country-search {\n      padding: 12px;\n      border-bottom: 1px solid #e1e4ea;\n    }\n    .retell-country-search input {\n      width: 90%;\n      border: 1px solid #e1e4ea;\n      border-radius: 6px;\n      padding: 8px 12px;\n      font-size: 14px;\n      outline: none;\n      font-family: 'Inter', Arial, sans-serif;\n    }\n    .retell-country-search input:focus {\n      border-color: #e1e4ea;\n    }\n    .retell-country-options {\n      max-height: 250px;\n      min-height: 250px;\n      overflow-y: auto;\n    }\n    .retell-country-option {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      padding: 12px;\n      cursor: pointer;\n      transition: background 0.2s;\n      border-bottom: 1px solid #f5f5f5;\n    }\n    .retell-country-option:hover {\n      background: #f8f9fa;\n    }\n    .retell-country-option.selected {\n      background: #e8f0ff;\n    }\n    .retell-country-option-left {\n      display: flex;\n      align-items: center;\n      gap: 12px;\n    }\n    .retell-country-flag {\n      font-size: 20px;\n      width: 24px;\n      text-align: center;\n      margin-left: 8px;\n    }\n    .retell-country-name {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #0e121b;\n      line-height: 20px;\n    }\n    .retell-country-phone {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      color: #0e121b;\n      line-height: 20px;\n    }\n    .retell-callback-checkbox-group {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      height: 20px;\n    }\n    .retell-callback-checkbox {\n      width: 16px;\n      height: 16px;\n      margin: 0; /* reset UA default margins that create left gap */\n      accent-color: #000000;\n      background: #e1e4ea;\n      border-radius: 4px;\n    }\n    .retell-callback-checkbox-label {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #525866;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .retell-privacy-policy-link {\n      color: #335cff;\n      text-decoration: none;\n      cursor: pointer;\n      transition: color 0.2s;\n    }\n    .retell-privacy-policy-link:hover {\n      color: #1a3fd9;\n      text-decoration: underline;\n    }\n    .retell-callback-actions {\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n      align-items: center;\n      width: 100%;\n    }\n    .retell-callback-form .retell-send-btn {\n      width: 100%;\n      height: 40px;\n      background: "
+                      ";\n      left: 0 !important;\n      right: 0 !important;\n      bottom: 90px !important;\n      top: auto !important;\n      margin: 0 auto !important;\n      border-radius: 16px !important;\n      position: fixed !important;\n      box-shadow: 0 2px 16px rgba(0,0,0,0.18);\n      z-index: 999999;\n    }\n    .nser-fab {\n      right: 16px !important;\n      bottom: 16px !important;\n      left: auto !important;\n    }\n    }\n    .nser-powered-by {\n      margin-top: auto;\n  font-size: 9px;\n  color: #b0b0b0;\n  text-align: left;\n  margin-left: 16px;\n  margin-bottom: 8px;\n  letter-spacing: 0.01em;\n  font-family: 'Inter', Arial, sans-serif;\n    }\n    .nser-powered-by strong { color: #0d1123; }\n    .nser-ai-message-modal {\n      position: fixed;\n      bottom: 100px;\n      right: 24px;\n      z-index: 999999;\n      pointer-events: none;\n    }\n    .nser-ai-message-container {\n      display: flex;\n      flex-direction: column;\n      align-items: flex-end;\n      gap: 8px;\n      pointer-events: auto;\n    }\n    .nser-ai-message-bubble {\n      background: #ffffff;\n      border: 1px solid rgba(14, 18, 27, 0.01);\n      border-radius: 8px;\n      box-shadow: 0px 16px 32px -12px rgba(14, 18, 27, 0.1);\n      padding: 12px 16px;\n      max-width: 320px;\n      width: 320px;\n      cursor: pointer;\n      transition: transform 0.2s ease, box-shadow 0.2s ease;\n    }\n    .nser-ai-message-bubble:hover {\n      transform: translateY(-2px);\n      box-shadow: 0px 20px 40px -12px rgba(14, 18, 27, 0.15);\n    }\n    .nser-ai-message-content {\n      font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;\n      font-size: 14px;\n      line-height: 22px;\n      color: #0e121b;\n      margin-bottom: 8px;\n      word-break: break-word;\n      cursor: pointer;\n    }\n    .nser-ai-message-footer {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;\n      font-size: 12px;\n      line-height: 20px;\n    }\n    .nser-ai-message-bot-name {\n      color: #8f959e;\n    }\n    .nser-ai-message-close {\n      background: none;\n      border: none;\n      color: #525866;\n      font-size: 12px;\n      cursor: pointer;\n      padding: 0;\n      margin: 0;\n      font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n    .nser-ai-message-close:hover {\n      color: #0e121b;\n    }\n    \n    /* Callback Widget Styles */\n\n    #nser-firstname-input {\n      border-radius: 8px 0 0 8px;\n      border-right: none;\n    }\n    #nser-lastname-input {\n    border-radius: 0 8px 8px 0;\n    }\n    .nser-callback-form {\n      padding: 16px;\n      background: #ffffff;\n      display: flex;\n      flex-direction: column;\n      gap: 20px;\n      border-radius: 12px;\n      box-shadow: 0px 16px 32px -12px rgba(14,18,27,0.1);\n      border: 1px solid rgba(14,18,27,0.01);\n      margin: 0;\n      box-sizing: border-box;\n    }\n    .nser-callback-header {\n      display: flex;\n      flex-direction: column;\n      gap: 2px;\n    }\n    .nser-callback-title {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      height: 24px;\n    }\n    .nser-callback-title-icon {\n      font-size: 15px;\n      color: #0e121b;\n      line-height: 24px;\n    }\n    .nser-callback-title-text {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      color: #0e121b;\n      line-height: 24px;\n      letter-spacing: -0.176px;\n    }\n    .nser-callback-subtitle {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #1f2329;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .nser-callback-note {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 12px;\n      color: #525866;\n      line-height: 16px;\n    }\n    .nser-callback-form-content {\n      display: flex;\n      flex-direction: column;\n      gap: 10px;\n      width: 308px;\n    }\n    .nser-callback-name-group {\n      display: flex;\n      gap: 0;\n      width: 100%;\n    }\n    .nser-callback-name-group .nser-callback-input-group {\n      flex: 1;\n      margin-bottom: 0;\n    }\n    .nser-callback-name-group .nser-callback-input-group:first-child {\n      border-right: 1px solid #e1e4ea;\n    }\n    /* Ensure only a single divider line between first and last name */\n    .nser-callback-name-group .nser-callback-input-group:first-child .nser-input {\n      border-right: none;\n      border-radius: 8px 0 0 8px;\n    }\n    .nser-callback-name-group .nser-callback-input-group:last-child .nser-input {\n      border-left: none;\n      border-radius: 0 8px 8px 0;\n    }\n    .nser-callback-input-group {\n      margin-bottom: 0;\n    }\n    .nser-callback-input-group .nser-input {\n      width: 100%;\n      box-sizing: border-box;\n      margin: 0;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      padding: 10px 12px;\n      font-size: 14px;\n      background: #ffffff;\n      outline: none;\n      transition: all 0.2s;\n      color: #99a0ae;\n      font-family: 'Inter', Arial, sans-serif;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .nser-callback-input-group .nser-input:focus,\n    .nser-callback-input-group .nser-input:not(:placeholder-shown) {\n      border-color: #e1e4ea;\n      color: #0e121b;\n    }\n    .nser-callback-input-group .nser-input::placeholder {\n      color: #99a0ae;\n    }\n    .nser-callback-phone-group {\n      display: flex;\n      align-items: center;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      overflow: visible;\n      box-shadow: 0px 1px 2px 0px rgba(10,13,20,0.03);\n      position: relative;\n    }\n    .nser-callback-country-dropdown {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      padding: 10px 12px;\n      background: #ffffff;\n      border-right: 1px solid #e1e4ea;\n      border-radius: 8px 0 0 8px;\n      cursor: pointer;\n      min-width: 80px;\n      outline: none;\n      box-sizing: border-box;\n      height: 100%;\n    }\n    \n    .nser-callback-country-dropdown:focus {\n      outline: 2px solid #e1e4ea;\n      outline-offset: -2px;\n    }\n    .nser-callback-country-flag {\n      font-size: 20px;\n    }\n    .nser-callback-country-code {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #0e121b;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .nser-callback-dropdown-arrow {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      transition: transform 0.2s;\n    }\n    .nser-callback-dropdown-arrow svg {\n      width: 16px;\n      height: 16px;\n      fill: #99a0ae;\n    }\n    .nser-callback-country-dropdown.open .nser-callback-dropdown-arrow {\n      transform: rotate(180deg);\n    }\n    .nser-callback-phone-group .nser-input {\n      border: none;\n      border-radius: 0 8px 8px 0;\n      flex: 1;\n      border-left: none; /* single divider handled by dropdown's border-right */\n      height: 100%;\n      color: #99a0ae;\n      transition: color 0.2s;\n    }\n    .nser-callback-phone-group .nser-input:focus,\n    .nser-callback-phone-group .nser-input:not(:placeholder-shown) {\n      color: #0e121b;\n    }\n    .nser-callback-phone-group {\n      position: relative;\n      height: 42px;\n    }\n    .nser-country-dropdown-list {\n      position: fixed;\n      bottom: auto;\n      left: auto;\n      right: auto;\n      background: #ffffff;\n      border: 1px solid #e1e4ea;\n      border-radius: 8px;\n      box-shadow: 0px 4px 12px rgba(14,18,27,0.1);\n      z-index: 999999;\n      max-height: 300px;\n      overflow: hidden;\n      margin-bottom: 4px;\n      width: 308px;\n    }\n    .nser-country-search {\n      padding: 12px;\n      border-bottom: 1px solid #e1e4ea;\n    }\n    .nser-country-search input {\n      width: 90%;\n      border: 1px solid #e1e4ea;\n      border-radius: 6px;\n      padding: 8px 12px;\n      font-size: 14px;\n      outline: none;\n      font-family: 'Inter', Arial, sans-serif;\n    }\n    .nser-country-search input:focus {\n      border-color: #e1e4ea;\n    }\n    .nser-country-options {\n      max-height: 250px;\n      min-height: 250px;\n      overflow-y: auto;\n    }\n    .nser-country-option {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      padding: 12px;\n      cursor: pointer;\n      transition: background 0.2s;\n      border-bottom: 1px solid #f5f5f5;\n    }\n    .nser-country-option:hover {\n      background: #f8f9fa;\n    }\n    .nser-country-option.selected {\n      background: #e8f0ff;\n    }\n    .nser-country-option-left {\n      display: flex;\n      align-items: center;\n      gap: 12px;\n    }\n    .nser-country-flag {\n      font-size: 20px;\n      width: 24px;\n      text-align: center;\n      margin-left: 8px;\n    }\n    .nser-country-name {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #0e121b;\n      line-height: 20px;\n    }\n    .nser-country-phone {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      color: #0e121b;\n      line-height: 20px;\n    }\n    .nser-callback-checkbox-group {\n      display: flex;\n      align-items: center;\n      gap: 8px;\n      height: 20px;\n    }\n    .nser-callback-checkbox {\n      width: 16px;\n      height: 16px;\n      margin: 0; /* reset UA default margins that create left gap */\n      accent-color: #000000;\n      background: #e1e4ea;\n      border-radius: 4px;\n    }\n    .nser-callback-checkbox-label {\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      color: #525866;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .nser-privacy-policy-link {\n      color: #335cff;\n      text-decoration: none;\n      cursor: pointer;\n      transition: color 0.2s;\n    }\n    .nser-privacy-policy-link:hover {\n      color: #1a3fd9;\n      text-decoration: underline;\n    }\n    .nser-callback-actions {\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n      align-items: center;\n      width: 100%;\n    }\n    .nser-callback-form .nser-send-btn {\n      width: 100%;\n      height: 40px;\n      background: "
                     )
                     .concat(
                       w,
-                      ";\n      border: none;\n      border-radius: 10px;\n      padding: 10px;\n      color: #ffffff;\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      cursor: pointer;\n      transition: all 0.2s;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .retell-callback-form .retell-send-btn:hover:not(:disabled) {\n      background: "
+                      ";\n      border: none;\n      border-radius: 10px;\n      padding: 10px;\n      color: #ffffff;\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      cursor: pointer;\n      transition: all 0.2s;\n      line-height: 20px;\n      letter-spacing: -0.084px;\n    }\n    .nser-callback-form .nser-send-btn:hover:not(:disabled) {\n      background: "
                     )
                     .concat(
                       w,
-                      ";\n      filter: brightness(0.9);\n    }\n    .retell-callback-form .retell-send-btn:disabled {\n      background: #9ca3af;\n      color: #ffffff;\n      cursor: not-allowed;\n      opacity: 0.6;\n    }\n    .retell-maybe-later {\n      text-align: center;\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 12px;\n      color: #525866;\n      cursor: pointer;\n      line-height: 16px;\n    }\n    .retell-maybe-later:hover {\n      color: #0e121b;\n    }\n\n    /* Success Widget Styles */\n    .retell-success-container {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      gap: 24px;\n      padding: 16px;\n      height: 100%;\n      min-height: 314px;\n    }\n\n    .retell-success-icon {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 42px;\n      height: 42px;\n    }\n\n    .retell-success-content {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 2px;\n      text-align: center;\n      max-width: 260px;\n    }\n\n    .retell-success-title {\n      font-family: 'Inter', sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      line-height: 24px;\n      color: #0e121b;\n      margin: 0;\n      letter-spacing: -0.176px;\n    }\n\n    .retell-success-subtitle {\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 400;\n      line-height: 20px;\n      color: #1f2329;\n      margin: 0;\n      text-align: center;\n      letter-spacing: -0.084px;\n    }\n\n    .retell-success-actions {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 8px;\n      width: 100%;\n    }\n\n    .retell-got-it-btn {\n      background: #ffffff;\n      border: 1px solid #e1e4ea;\n      border-radius: 10px;\n      padding: 10px 16px;\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      line-height: 20px;\n      color: #525866;\n      cursor: pointer;\n      box-shadow: 0px 1px 2px 0px rgba(10,13,20,0.03);\n      transition: all 0.2s ease;\n      width: 100%;\n      max-width: 360px;\n    }\n\n    .retell-got-it-btn:hover {\n      background: #f8f9fa;\n      border-color: #d1d5db;\n    }\n\n    .retell-got-it-btn:active {\n      transform: translateY(1px);\n    }\n\n    /* Error Message Styles */\n    .retell-error-message {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      gap: 24px;\n      padding: 16px;\n      height: 100%;\n      min-height: 314px;\n    }\n\n    .retell-error-icon {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 42px;\n      height: 42px;\n      font-size: 32px;\n    }\n\n    .retell-error-content {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 2px;\n      text-align: center;\n      max-width: 260px;\n    }\n\n    .retell-error-title {\n      font-family: 'Inter', sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      line-height: 24px;\n      color: #0e121b;\n      margin: 0;\n      letter-spacing: -0.176px;\n    }\n\n    .retell-error-subtitle {\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 400;\n      line-height: 20px;\n      color: #1f2329;\n      margin: 0;\n      text-align: center;\n      letter-spacing: -0.084px;\n    }\n\n    .retell-error-actions {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 8px;\n      width: 100%;\n    }\n  "
+                      ";\n      filter: brightness(0.9);\n    }\n    .nser-callback-form .nser-send-btn:disabled {\n      background: #9ca3af;\n      color: #ffffff;\n      cursor: not-allowed;\n      opacity: 0.6;\n    }\n    .nser-maybe-later {\n      text-align: center;\n      font-family: 'Inter', Arial, sans-serif;\n      font-size: 12px;\n      color: #525866;\n      cursor: pointer;\n      line-height: 16px;\n    }\n    .nser-maybe-later:hover {\n      color: #0e121b;\n    }\n\n    /* Success Widget Styles */\n    .nser-success-container {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      gap: 24px;\n      padding: 16px;\n      height: 100%;\n      min-height: 314px;\n    }\n\n    .nser-success-icon {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 42px;\n      height: 42px;\n    }\n\n    .nser-success-content {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 2px;\n      text-align: center;\n      max-width: 260px;\n    }\n\n    .nser-success-title {\n      font-family: 'Inter', sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      line-height: 24px;\n      color: #0e121b;\n      margin: 0;\n      letter-spacing: -0.176px;\n    }\n\n    .nser-success-subtitle {\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 400;\n      line-height: 20px;\n      color: #1f2329;\n      margin: 0;\n      text-align: center;\n      letter-spacing: -0.084px;\n    }\n\n    .nser-success-actions {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 8px;\n      width: 100%;\n    }\n\n    .nser-got-it-btn {\n      background: #ffffff;\n      border: 1px solid #e1e4ea;\n      border-radius: 10px;\n      padding: 10px 16px;\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      line-height: 20px;\n      color: #525866;\n      cursor: pointer;\n      box-shadow: 0px 1px 2px 0px rgba(10,13,20,0.03);\n      transition: all 0.2s ease;\n      width: 100%;\n      max-width: 360px;\n    }\n\n    .nser-got-it-btn:hover {\n      background: #f8f9fa;\n      border-color: #d1d5db;\n    }\n\n    .nser-got-it-btn:active {\n      transform: translateY(1px);\n    }\n\n    /* Error Message Styles */\n    .nser-error-message {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      gap: 24px;\n      padding: 16px;\n      height: 100%;\n      min-height: 314px;\n    }\n\n    .nser-error-icon {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: 42px;\n      height: 42px;\n      font-size: 32px;\n    }\n\n    .nser-error-content {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 2px;\n      text-align: center;\n      max-width: 260px;\n    }\n\n    .nser-error-title {\n      font-family: 'Inter', sans-serif;\n      font-size: 16px;\n      font-weight: 500;\n      line-height: 24px;\n      color: #0e121b;\n      margin: 0;\n      letter-spacing: -0.176px;\n    }\n\n    .nser-error-subtitle {\n      font-family: 'Inter', sans-serif;\n      font-size: 14px;\n      font-weight: 400;\n      line-height: 20px;\n      color: #1f2329;\n      margin: 0;\n      text-align: center;\n      letter-spacing: -0.084px;\n    }\n\n    .nser-error-actions {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      gap: 8px;\n      width: 100%;\n    }\n  "
                     )),
                   I.appendChild(M),
                   (I.innerHTML +=
-                    '\n    <div class="retell-fab" id="retell-fab" title="'
+                    '\n    <div class="nser-fab" id="nser-fab" title="'
                       .concat(
                         'callback' === m ? 'Request Callback' : 'Chat',
                         '">'
                       )
                       .concat(
                         t,
-                        '</div>\n    <div class="retell-chat-window" id="retell-chat" style="display:none;">\n      '
+                        '</div>\n    <div class="nser-chat-window" id="nser-chat" style="display:none;">\n      '
                       )
                       .concat(
                         'callback' === m
-                          ? '<div class="retell-callback-form" id="retell-callback-form">'.concat(
+                          ? '<div class="nser-callback-form" id="nser-callback-form">'.concat(
                               n,
                               '</div>'
                             )
-                          : '\n        <div class="retell-header">\n          <button class="retell-hamburger" id="retell-hamburger"></button>\n          <span class="retell-header-title" id="retell-header-title"></span>\n          <button class="retell-minimize" id="retell-minimize"></button>\n          <button class="retell-close" id="retell-close"></button>\n        </div>\n        <div class="retell-sidebar" id="retell-sidebar">\n          <div class="retell-chat-list" id="retell-chat-list"></div>\n        </div>\n        <div class="retell-messages" id="retell-messages"></div>\n        <form class="retell-input-row" id="retell-form">\n          <input class="retell-input" id="retell-input" autocomplete="off" placeholder="Ask a detailed question..." />\n          <button class="retell-send-btn" type="submit">➤</button>\n        </form>\n        <div class="retell-powered-by">Powered by Retell</div>\n      ',
-                        '\n      <div class="retell-modal" id="retell-modal" style="display:none;">\n        <div class="retell-modal-content">\n          <p>Do you want to end this chat?</p>\n          <div class="retell-modal-btn-row">\n            <button class="retell-modal-btn" id="retell-modal-yes"></button>\n            <button class="retell-modal-btn" id="retell-modal-no"></button>\n          </div>\n        </div>\n      </div>\n    </div>\n    \n    \x3c!-- AI Message Modal --\x3e\n    <div class="retell-ai-message-modal" id="retell-ai-message-modal" style="display:none;">\n      <div class="retell-ai-message-container">\n        <div class="retell-ai-message-bubble">\n          <div class="retell-ai-message-content" id="retell-ai-message-content">\n            '
+                          : '\n        <div class="nser-header">\n          <button class="nser-hamburger" id="nser-hamburger"></button>\n          <span class="nser-header-title" id="nser-header-title"></span>\n          <button class="nser-minimize" id="nser-minimize"></button>\n          <button class="nser-close" id="nser-close"></button>\n        </div>\n        <div class="nser-sidebar" id="nser-sidebar">\n          <div class="nser-chat-list" id="nser-chat-list"></div>\n        </div>\n        <div class="nser-messages" id="nser-messages"></div>\n        <form class="nser-input-row" id="nser-form">\n          <input class="nser-input" id="nser-input" autocomplete="off" placeholder="Ask a detailed question..." />\n          <button class="nser-send-btn" type="submit">➤</button>\n        </form>\n        <div class="nser-powered-by">Powered by NSER.AI</div>\n      ',
+                        '\n      <div class="nser-modal" id="nser-modal" style="display:none;">\n        <div class="nser-modal-content">\n          <p>Do you want to end this chat?</p>\n          <div class="nser-modal-btn-row">\n            <button class="nser-modal-btn" id="nser-modal-yes"></button>\n            <button class="nser-modal-btn" id="nser-modal-no"></button>\n          </div>\n        </div>\n      </div>\n    </div>\n    \n    \x3c!-- AI Message Modal --\x3e\n    <div class="nser-ai-message-modal" id="nser-ai-message-modal" style="display:none;">\n      <div class="nser-ai-message-container">\n        <div class="nser-ai-message-bubble">\n          <div class="nser-ai-message-content" id="nser-ai-message-content">\n            '
                       )
                       .concat(
                         j ||
                           "Hello! I'm here to help you. How can I assist you today?",
-                        '\n          </div>\n          <div class="retell-ai-message-footer">\n            <span class="retell-ai-message-bot-name" id="retell-ai-message-bot-name">'
+                        '\n          </div>\n          <div class="nser-ai-message-footer">\n            <span class="nser-ai-message-bot-name" id="nser-ai-message-bot-name">'
                       )
                       .concat(
                         _ || 'AI Assistant',
-                        '</span>\n            <button class="retell-ai-message-close" id="retell-ai-message-close">Close</button>\n          </div>\n        </div>\n      </div>\n    </div>\n  '
+                        '</span>\n            <button class="nser-ai-message-close" id="nser-ai-message-close">Close</button>\n          </div>\n        </div>\n      </div>\n    </div>\n  '
                       ));
                 var E,
                   T,
@@ -1477,15 +1477,15 @@
                   K,
                   U,
                   q,
-                  J = I.getElementById('retell-fab'),
-                  W = I.getElementById('retell-chat'),
-                  Y = I.getElementById('retell-modal'),
-                  Q = I.getElementById('retell-modal-yes'),
-                  X = I.getElementById('retell-modal-no'),
-                  $ = I.getElementById('retell-ai-message-modal'),
-                  ee = I.getElementById('retell-ai-message-content'),
-                  ne = I.getElementById('retell-ai-message-bot-name'),
-                  te = I.getElementById('retell-ai-message-close');
+                  J = I.getElementById('nser-fab'),
+                  W = I.getElementById('nser-chat'),
+                  Y = I.getElementById('nser-modal'),
+                  Q = I.getElementById('nser-modal-yes'),
+                  X = I.getElementById('nser-modal-no'),
+                  $ = I.getElementById('nser-ai-message-modal'),
+                  ee = I.getElementById('nser-ai-message-content'),
+                  ne = I.getElementById('nser-ai-message-bot-name'),
+                  te = I.getElementById('nser-ai-message-close');
                 if ('callback' === m) {
                   var oe = i(I, x, v, k, C);
                   oe &&
@@ -1497,15 +1497,15 @@
                     (U = oe.callbackSubmit),
                     (q = oe.maybeLaterBtn));
                 } else
-                  (E = I.getElementById('retell-close')),
-                    (T = I.getElementById('retell-minimize')),
-                    (N = I.getElementById('retell-messages')),
-                    (z = I.getElementById('retell-hamburger')),
-                    (O = I.getElementById('retell-sidebar')),
-                    (G = I.getElementById('retell-chat-list')),
-                    (P = I.getElementById('retell-header-title')),
-                    (H = I.getElementById('retell-form')),
-                    (F = I.getElementById('retell-input')),
+                  (E = I.getElementById('nser-close')),
+                    (T = I.getElementById('nser-minimize')),
+                    (N = I.getElementById('nser-messages')),
+                    (z = I.getElementById('nser-hamburger')),
+                    (O = I.getElementById('nser-sidebar')),
+                    (G = I.getElementById('nser-chat-list')),
+                    (P = I.getElementById('nser-header-title')),
+                    (H = I.getElementById('nser-form')),
+                    (F = I.getElementById('nser-input')),
                     (z.innerHTML = o),
                     (T.innerHTML = a),
                     (E.innerHTML = l),
@@ -1528,7 +1528,7 @@
                   (te.onclick = y),
                   $.addEventListener('click', function (e) {
                     e.target === te ||
-                      e.target.closest('.retell-ai-message-close') ||
+                      e.target.closest('.nser-ai-message-close') ||
                       p();
                   }),
                   {
@@ -1574,7 +1574,7 @@
                             'callback' === c
                               ? '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.0999 12.9779V16.1603C17.1 16.3882 17.0137 16.6076 16.8583 16.7743C16.703 16.941 16.4902 17.0426 16.2629 17.0585C15.8696 17.0855 15.5483 17.0999 15.2999 17.0999C7.3466 17.0999 0.899902 10.6532 0.899902 2.6999C0.899902 2.4515 0.913402 2.1302 0.941302 1.7369C0.957252 1.5096 1.05883 1.29681 1.22553 1.14147C1.39223 0.986128 1.61164 0.899799 1.8395 0.899903H5.0219C5.13354 0.89979 5.24123 0.941175 5.32406 1.01602C5.40689 1.09087 5.45894 1.19383 5.4701 1.3049C5.4908 1.5119 5.5097 1.6766 5.5277 1.8017C5.70656 3.04993 6.0731 4.26395 6.6149 5.4026C6.7004 5.5826 6.6446 5.7977 6.4826 5.9129L4.5404 7.3007C5.72791 10.0677 7.933 12.2728 10.7 13.4603L12.086 11.5217C12.1427 11.4425 12.2253 11.3857 12.3195 11.3612C12.4138 11.3367 12.5136 11.346 12.6017 11.3876C13.7402 11.9284 14.9539 12.294 16.2017 12.4721C16.3268 12.4901 16.4915 12.5099 16.6967 12.5297C16.8076 12.5411 16.9104 12.5932 16.985 12.676C17.0597 12.7588 17.1009 12.8664 17.1008 12.9779H17.0999Z" fill="white"/></svg>'
                               : '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.125 4.5C13.125 4.83319 12.9802 5.13254 12.75 5.33854V6.75H16.5C17.7427 6.75 18.75 7.75736 18.75 9V16.5C18.75 17.7427 17.7427 18.75 16.5 18.75H7.5C6.25736 18.75 5.25 17.7427 5.25 16.5V9C5.25 7.75736 6.25736 6.75 7.5 6.75H11.25V5.33854C11.0198 5.13254 10.875 4.83319 10.875 4.5C10.875 3.87868 11.3787 3.375 12 3.375C12.6213 3.375 13.125 3.87868 13.125 4.5ZM7.5 8.25C7.08579 8.25 6.75 8.58579 6.75 9V16.5C6.75 16.9142 7.08579 17.25 7.5 17.25H16.5C16.9142 17.25 17.25 16.9142 17.25 16.5V9C17.25 8.58579 16.9142 8.25 16.5 8.25H12.75H11.25H7.5ZM4.5 10.5H3V15H4.5V10.5ZM19.5 10.5H21V15H19.5V10.5ZM9.75 13.875C10.3713 13.875 10.875 13.3713 10.875 12.75C10.875 12.1287 10.3713 11.625 9.75 11.625C9.12868 11.625 8.625 12.1287 8.625 12.75C8.625 13.3713 9.12868 13.875 9.75 13.875ZM14.25 13.875C14.8713 13.875 15.375 13.3713 15.375 12.75C15.375 12.1287 14.8713 11.625 14.25 11.625C13.6287 11.625 13.125 12.1287 13.125 12.75C13.125 13.3713 13.6287 13.875 14.25 13.875Z" fill="white"/></svg>',
-                          retellLogoSVG: C,
+                          nserLogoSVG: C,
                           hamburgerSVG:
                             '<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.25 0H13.75V1.5H0.25V0ZM0.25 5.25H13.75V6.75H0.25V5.25ZM0.25 10.5H13.75V12H0.25V10.5Z" fill="white"/></svg>',
                           minimizeSVG:
@@ -1684,15 +1684,15 @@
             })();
           } else
             console.error(
-              "Retell Widget: data-phone-number attribute is required when data-widget='callback'."
+              "NSER.AI Widget: data-phone-number attribute is required when data-widget='callback'."
             );
         } else
           console.error(
-            'Retell Widget: data-public-key attribute is required.'
+            'NSER.AI Widget: data-public-key attribute is required.'
           );
       } else
         console.error(
-          "Retell Widget: Script tag with id 'retell-widget' not found."
+          "NSER.AI Widget: Script tag with id 'nser-widget' not found."
         );
       function oe() {
         !(function (e, n, t, o) {
@@ -1706,14 +1706,14 @@
                 (l && 'agent' === l.role) ||
                   (a.forEach(function (n, o) {
                     var a = document.createElement('div');
-                    (a.className = 'retell-msg agent-row'),
+                    (a.className = 'nser-msg agent-row'),
                       0 === o
-                        ? (a.innerHTML = "<span class='retell-agent-logo'>"
-                            .concat(t, "</span><div class='retell-msg agent'>")
+                        ? (a.innerHTML = "<span class='nser-agent-logo'>"
+                            .concat(t, "</span><div class='nser-msg agent'>")
                             .concat(n.content, '</div>'))
-                        : ((a.className = 'retell-msg agent-row consecutive'),
+                        : ((a.className = 'nser-msg agent-row consecutive'),
                           (a.innerHTML =
-                            "<div class='retell-msg agent' style='margin-left: 36px;'>".concat(
+                            "<div class='nser-msg agent' style='margin-left: 36px;'>".concat(
                               n.content,
                               '</div>'
                             ))),
@@ -1722,7 +1722,7 @@
                   (a = []));
               } else {
                 var r = document.createElement('div');
-                (r.className = 'retell-msg user'),
+                (r.className = 'nser-msg user'),
                   (r.textContent = o.content),
                   e.appendChild(r);
               }
@@ -1752,13 +1752,13 @@
               ? n.forEach(function (n) {
                   var l = document.createElement('div');
                   (l.className =
-                    'retell-chat-list-item' + (n.id === t ? ' selected' : '')),
+                    'nser-chat-list-item' + (n.id === t ? ' selected' : '')),
                     (l.style.display = 'flex'),
                     (l.style.flexDirection = 'row'),
                     (l.style.alignItems = 'center'),
                     (l.style.justifyContent = 'space-between');
                   var r = document.createElement('div');
-                  (r.className = 'retell-chat-list-item-content'),
+                  (r.className = 'nser-chat-list-item-content'),
                     (r.style.display = 'flex'),
                     (r.style.flexDirection = 'column'),
                     (r.style.flex = '1'),
@@ -1767,7 +1767,7 @@
                   var c = n.title || 'New chat...';
                   c.length > 40 && (c = c.slice(0, 40) + '...');
                   var d = document.createElement('div');
-                  (d.className = 'retell-chat-list-item-title'),
+                  (d.className = 'nser-chat-list-item-title'),
                     (d.textContent = c),
                     (d.style.fontWeight = '500'),
                     (d.style.fontSize = '15px'),
@@ -1776,7 +1776,7 @@
                     (d.style.overflow = 'hidden'),
                     (d.style.textOverflow = 'ellipsis');
                   var s = document.createElement('div');
-                  (s.className = 'retell-chat-list-item-date'),
+                  (s.className = 'nser-chat-list-item-date'),
                     (s.textContent = o(n.date)),
                     (s.style.fontSize = '13px'),
                     (s.style.color = '#B0B0B0'),
@@ -1784,7 +1784,7 @@
                     r.appendChild(d),
                     r.appendChild(s);
                   var m = document.createElement('div');
-                  (m.className = 'retell-chat-list-item-arrow'),
+                  (m.className = 'nser-chat-list-item-arrow'),
                     (m.innerHTML = i),
                     (m.style.color = '#B0B0B0'),
                     (m.style.fontSize = '18px'),
@@ -1872,14 +1872,14 @@
                         'Public key is not allowed for this domain' ===
                         a.message
                           ? console.error(
-                              'Retell Widget: Public key is not allowed for this domain. Please check your public key and ensure your domain is whitelisted in the Retell dashboard.'
+                              'NSER.AI Widget: Public key is not allowed for this domain. Please check your public key and ensure your domain is whitelisted.'
                             )
                           : console.error(
-                              'Retell Widget: Failed to create chat:',
+                              'NSER.AI Widget: Failed to create chat:',
                               a.message
                             ),
                         (W.disabled = !0),
-                        (J.querySelector('.retell-send-btn').disabled = !0),
+                        (J.querySelector('.nser-send-btn').disabled = !0),
                         e.a(2)
                       );
                     case 8:
@@ -1917,14 +1917,14 @@
                             })) && ((V[d].ended = !0), j(V)),
                           oe(!0),
                           (W.disabled = !0),
-                          (J.querySelector('.retell-send-btn').disabled = !0)),
+                          (J.querySelector('.nser-send-btn').disabled = !0)),
                         (e.n = 11);
                       break;
                     case 10:
                       (e.p = 10),
                         (s = e.v),
                         console.error(
-                          'Retell Widget: Failed to get initial AI greeting:',
+                          'NSER.AI Widget: Failed to get initial AI greeting:',
                           s
                         );
                     case 11:
@@ -1933,7 +1933,7 @@
                         (U.style.display = 'flex'),
                         (q.scrollTop = q.scrollHeight),
                         (W.disabled = !1),
-                        (J.querySelector('.retell-send-btn').disabled = !1),
+                        (J.querySelector('.nser-send-btn').disabled = !1),
                         $();
                     case 12:
                       return e.a(2);
@@ -1979,9 +1979,9 @@
                         (Y.style.display = 'none'),
                         t
                           ? ((W.disabled = !0),
-                            (J.querySelector('.retell-send-btn').disabled = !0))
+                            (J.querySelector('.nser-send-btn').disabled = !0))
                           : ((W.disabled = !1),
-                            (J.querySelector('.retell-send-btn').disabled = !1),
+                            (J.querySelector('.nser-send-btn').disabled = !1),
                             $());
                     case 5:
                       return e.a(2);
@@ -2042,11 +2042,11 @@
                     case 0:
                       if (
                         (n.preventDefault(),
-                        (t = K.getElementById('retell-firstname-input')),
-                        (i = K.getElementById('retell-lastname-input')),
-                        (l = K.getElementById('retell-phone-input')),
-                        (r = K.getElementById('retell-privacy-checkbox')),
-                        (c = K.getElementById('retell-callback-submit')),
+                        (t = K.getElementById('nser-firstname-input')),
+                        (i = K.getElementById('nser-lastname-input')),
+                        (l = K.getElementById('nser-phone-input')),
+                        (r = K.getElementById('nser-privacy-checkbox')),
+                        (c = K.getElementById('nser-callback-submit')),
                         (s = t ? t.value.trim() : ''),
                         (m = i ? i.value.trim() : ''),
                         (u = l ? l.value.trim() : ''),
@@ -2058,7 +2058,7 @@
                       return e.a(2);
                     case 1:
                       return (
-                        (f = K.getElementById('retell-country-code')),
+                        (f = K.getElementById('nser-country-code')),
                         (g = f ? f.textContent : '+1'),
                         c &&
                           ((c.disabled = !0),
@@ -2098,11 +2098,11 @@
                       (e.p = 6),
                         (k = e.v),
                         console.error('Error creating phone call:', k),
-                        (v = K.getElementById('retell-callback-form')) &&
+                        (v = K.getElementById('nser-callback-form')) &&
                           ((v.innerHTML =
-                            '\n            <div class="retell-error-message">\n              <div class="retell-error-icon">⚠️</div>\n              <div class="retell-error-content">\n                <h3 class="retell-error-title">Request Failed</h3>\n                <p class="retell-error-subtitle">Sorry, we couldn\'t submit your call request right now. Please try again later.</p>\n              </div>\n              <div class="retell-error-actions">\n                <button class="retell-send-btn" id="retell-try-again-btn">Try Again</button>\n                <div class="retell-maybe-later" id="retell-error-maybe-later">Maybe later</div>\n              </div>\n            </div>\n          '),
-                          (w = K.getElementById('retell-try-again-btn')),
-                          (j = K.getElementById('retell-error-maybe-later')),
+                            '\n            <div class="nser-error-message">\n              <div class="nser-error-icon">⚠️</div>\n              <div class="nser-error-content">\n                <h3 class="nser-error-title">Request Failed</h3>\n                <p class="nser-error-subtitle">Sorry, we couldn\'t submit your call request right now. Please try again later.</p>\n              </div>\n              <div class="nser-error-actions">\n                <button class="nser-send-btn" id="nser-try-again-btn">Try Again</button>\n                <div class="nser-maybe-later" id="nser-error-maybe-later">Maybe later</div>\n              </div>\n            </div>\n          '),
+                          (w = K.getElementById('nser-try-again-btn')),
+                          (j = K.getElementById('nser-error-maybe-later')),
                           w &&
                             (w.onclick = function () {
                               ge();
@@ -2114,7 +2114,7 @@
                     case 7:
                       return (
                         (e.p = 7),
-                        (_ = K.getElementById('retell-callback-submit')) &&
+                        (_ = K.getElementById('nser-callback-submit')) &&
                           ((_.disabled = !1),
                           (_.textContent = 'Submit Request')),
                         e.f(7)
@@ -2134,11 +2134,11 @@
         U.style.display = 'none';
       }
       function ue() {
-        var e = K.getElementById('retell-callback-form');
+        var e = K.getElementById('nser-callback-form');
         if (e) {
           e.innerHTML =
-            '\n          <div class="retell-success-container">\n            <div class="retell-success-icon">\n              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n                <circle cx="21" cy="21" r="17.5" fill="#32A645"/>\n                <path d="M13 21L18 26L29 15" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>\n              </svg>\n            </div>\n            <div class="retell-success-content">\n              <h3 class="retell-success-title">Your call request has been sent.</h3>\n              <p class="retell-success-subtitle">We\'ve received your details. You will receive a call shortly.</p>\n            </div>\n            <div class="retell-success-actions">\n              <button class="retell-got-it-btn" id="retell-got-it-btn">Got it</button>\n              <div class="retell-powered-by">Powered by Retell</div>\n            </div>\n          </div>\n        ';
-          var n = K.getElementById('retell-got-it-btn');
+            '\n          <div class="nser-success-container">\n            <div class="nser-success-icon">\n              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n                <circle cx="21" cy="21" r="17.5" fill="#32A645"/>\n                <path d="M13 21L18 26L29 15" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>\n              </svg>\n            </div>\n            <div class="nser-success-content">\n              <h3 class="nser-success-title">Your call request has been sent.</h3>\n              <p class="nser-success-subtitle">We\'ve received your details. You will receive a call shortly.</p>\n            </div>\n            <div class="nser-success-actions">\n              <button class="nser-got-it-btn" id="nser-got-it-btn">Got it</button>\n              <div class="nser-powered-by">Powered by NSER.AI</div>\n            </div>\n          </div>\n        ';
+          var n = K.getElementById('nser-got-it-btn');
           n && (n.onclick = fe);
         }
       }
@@ -2251,7 +2251,7 @@
                             return e.id === F;
                           })) && ((V[l].ended = !0), j(V)),
                         (W.disabled = !0),
-                        (J.querySelector('.retell-send-btn').disabled = !0),
+                        (J.querySelector('.nser-send-btn').disabled = !0),
                         e.a(2)
                       );
                     case 6:
@@ -2286,7 +2286,7 @@
                           })) && ((V[r].ended = !0), j(V)),
                         oe(!0),
                         (W.disabled = !0),
-                        (J.querySelector('.retell-send-btn').disabled = !0),
+                        (J.querySelector('.nser-send-btn').disabled = !0),
                         e.a(2)
                       );
                     case 7:
